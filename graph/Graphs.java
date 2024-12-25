@@ -79,7 +79,7 @@ class Graphs {
         int[] parent = new int[vertices];
         Arrays.fill(parent, -1); // Parent array for path reconstruction
 
-        System.out.println("DFS Traversal:");
+//        System.out.println("DFS Traversal:");
         dfsHelper(startVertex, distance, parent, 0);
 
         // Print shortest distances
